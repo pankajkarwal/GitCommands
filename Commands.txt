@@ -28,3 +28,8 @@ git merge [anotherbranch] // Merging two branches
 git branch -d [Branchname]
 
 git rm [file] // Delete the file from working Directory
+after removing the file make sure to add files to git again and run commit again and then push command to push the code to the github
+
+git rm --cached[File] // Removes file from git but remain in the file directory
+
+git mv [file-original][file-renamed]
