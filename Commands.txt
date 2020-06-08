@@ -33,3 +33,10 @@ after removing the file make sure to add files to git again and run commit again
 git rm --cached[File] // Removes file from git but remain in the file directory
 
 git mv [file-original][file-renamed]
+
+// Ignore somefiles to upload like.htaccess,.vscode etc
+so make sure to create a .gitignore file in the repositery in this file simply write the filenames 
+
+    .vscode or.htaccess etc
+    foldername/*  to ignore a folder to upload
+    temp-* means all files have temp-1,temp-2,... will be ignored
