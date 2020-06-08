@@ -27,3 +27,4 @@ git merge [anotherbranch] // Merging two branches
 
 git branch -d [Branchname]
 
+git rm [file] // Delete the file from working Directory
