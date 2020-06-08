@@ -1,0 +1,29 @@
+### Git Commands
+
+git config --global user.name ["username"]
+git config --global user.email ["Email Address"]
+git config --global color.ui auto  // Setting Color
+
+
+git init [Project-Name]  // Create empty local repository with specefied name
+
+git clone [url] //Download a project and its entire version at local
+
+git status // To view uncommited or commited files
+
+git add [filenmae] or use . for all files added to git in the folder
+
+git commit // commit the changs to git
+
+git push // Send the commited code to github
+
+git branch [branch-name] // Create a branch 
+
+git branch // will shows all the branch the * presents the current branch
+
+git checkout dev[Branchname]// setting the default branch
+
+git merge [anotherbranch] // Merging two branches
+
+git branch -d [Branchname]
+
