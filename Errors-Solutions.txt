@@ -1,0 +1,4 @@
+****************************************
+   Git gh-pages already exists
+****************************************
+	This error is resolved to clear the cache of node_modules
